@@ -28,24 +28,24 @@
 \end{tabular}
 \subsection{}
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
+     \hline 
+     p&q&r&$ p\lor q $&$ r \rightarrow p $&$ r \rightarrow q $&$ (p\lor q )\land (r \rightarrow p) \land  (r \rightarrow q) $&$ [(p\lor q )\land (r \rightarrow p) \land  (r \rightarrow q) ]\rightarrow r$\\ 
+     \hline \hline \cr
+     T&T&T&T&T&T&T&T\\
+     \hline 
+     T&T&F&T&T&T&T&F\\
      \hline
-     p & q & r & $ p\lor q $ & $ r \rightarrow p $ & $ r \rightarrow q $ & $ (p\lor q )\land (r \rightarrow p) \land  (r \rightarrow q) $ & $ [(p\lor q )\land (r \rightarrow p) \land  (r \rightarrow q) ] \rightarrow r $ \\ 
-     \hline \hline
-     T&T&T&T&T&T&T&T \\
+     T&F&T&T&T&F&F&T\\
      \hline
-     T&T&F&T&T&T&T&F \\
+     T&F&F&T&T&T&T&F\\
      \hline
-     T&F&T&T&T&F&F&T \\
+     F&T&T&T&F&T&F&T\\
      \hline
-     T&F&F&T&T&T&T&F \\
+     F&T&F&T&T&T&T&F\\
      \hline
-     F&T&T&T&F&T&F&T \\
+     F&F&T&F&F&F&F&T\\
      \hline
-     F&T&F&T&T&T&T&F \\
-     \hline
-     F&F&T&F&F&F&F&T \\
-     \hline
-     F&F&F&F&T&T&F&T \\
+     F&F&F&F&T&T&F&T\\
      \hline
 \end{tabular}
 
